@@ -6,20 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bryce Stockman</title>
+    <style>
+
+      body {
+        background-color: #efeee7;
+        font-family: "Georgia",Times New Roman,Times,serif;
+        color: #333333;
+        margin: 0;
+        padding: 0;
+        line-height: 1.5em;
+      }
+
+      header {
+        background-color: #333333;
+      }
+
+      h1 {
+        padding: 15px;
+        background-color: #333;
+        color: #eee;
+        font-size: 28px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      .container {
+        width: 1024px;
+        margin: 0 auto;
+      }
+
+      #main-bio {
+        float:left;
+        width: 70%;
+      }
+
+      #contact-info {
+        float:left;
+        width: 30%;
+      }
+
+      #bio-image {
+        margin-right: 30px;
+        float: left;
+        width: 200px;
+      }
+
+      a {
+        color: #d21034;
+      }
+
+    </style>
+
 </head>
 
 <body>
-    <h1>Student Bio</h1>
-    <h2>Bryce Stockman</h2>
-    <img src="https://scontent.xx.fbcdn.net/v/t31.0-8/15128971_1233284340083718_6288389842075119273_o.jpg?oh=3c1c5d86877199b2602582053b5790c2&oe=59895412"
-        alt="Pic" width="200px">
-    <p>Hi my name is Bryce! I am a student in the UCF Coding Bootcamp. My hobbies include basketball, guitar, and raising my Boxer pup.</p>
-    <h2>Contact Info</h2>
-    <ul>
-        <li><strong>Email:</strong> <a href="mailto:brycestockman@gmail.com">brycestockman@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="https://github.com/abstockman">abstockman</a></li>
-        <li><strong>Portfolio:</strong> </li>
-    </ul>
+    <div class="container">
+      <h1>Student Bio</h1>
+      <h2>Bryce Stockman</h2>
+      <img id="bio-image" src="https://scontent.xx.fbcdn.net/v/t31.0-8/15128971_1233284340083718_6288389842075119273_o.jpg?oh=3c1c5d86877199b2602582053b5790c2&oe=59895412"
+          alt="Pic" width="200px">
+      <div id="main-bio">
+        <p>Hi my name is Bryce! I am a student in the UCF Coding Bootcamp. My hobbies include basketball, guitar, and raising my Boxer pup.</p>
+      </div>
+      <div id="contact-info">
+        <h2>Contact Info</h2>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:brycestockman@gmail.com">brycestockman@gmail.com</a></li>
+          <li><strong>Github:</strong> <a href="https://github.com/abstockman">abstockman</a></li>
+          <li><strong>Portfolio:</strong> </li>
+        </ul>
+      </div>
+    </div>
 </body>
 
 </html>
